@@ -1,0 +1,6 @@
+framework module Pods_NaverCloverNavigationBar {
+  umbrella header "Pods-NaverCloverNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

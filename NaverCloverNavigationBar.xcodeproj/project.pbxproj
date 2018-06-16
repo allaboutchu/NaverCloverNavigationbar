@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342B7C1E9CCBCB1A72D86751 /* Pods_NaverCloverNavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8357A92D2D372C460CA94D83 /* Pods_NaverCloverNavigationBar.framework */; };
+		427DAD1620D5361D0022AF23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 427DAD1520D5361D0022AF23 /* AppDelegate.m */; };
+		427DAD1920D5361D0022AF23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427DAD1820D5361D0022AF23 /* ViewController.m */; };
+		427DAD1C20D5361D0022AF23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427DAD1A20D5361D0022AF23 /* Main.storyboard */; };
+		427DAD1E20D536200022AF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427DAD1D20D536200022AF23 /* Assets.xcassets */; };
+		427DAD2120D536200022AF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427DAD1F20D536200022AF23 /* LaunchScreen.storyboard */; };
+		427DAD2420D536200022AF23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 427DAD2320D536200022AF23 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		427DAD1120D5361D0022AF23 /* NaverCloverNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverCloverNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		427DAD1420D5361D0022AF23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		427DAD1520D5361D0022AF23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		427DAD1720D5361D0022AF23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		427DAD1820D5361D0022AF23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		427DAD1B20D5361D0022AF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		427DAD1D20D536200022AF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		427DAD2020D536200022AF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		427DAD2220D536200022AF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427DAD2320D536200022AF23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8357A92D2D372C460CA94D83 /* Pods_NaverCloverNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverCloverNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F5B85DDD624448C73067F2 /* Pods-NaverCloverNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverCloverNavigationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaverCloverNavigationBar/Pods-NaverCloverNavigationBar.release.xcconfig"; sourceTree = "<group>"; };
+		E8BAB1C42D4FE28B3A3B4131 /* Pods-NaverCloverNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverCloverNavigationBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaverCloverNavigationBar/Pods-NaverCloverNavigationBar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		427DAD0E20D5361D0022AF23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342B7C1E9CCBCB1A72D86751 /* Pods_NaverCloverNavigationBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		427DAD0820D5361D0022AF23 = {
+			isa = PBXGroup;
+			children = (
+				427DAD1320D5361D0022AF23 /* NaverCloverNavigationBar */,
+				427DAD1220D5361D0022AF23 /* Products */,
+				EA3C3659BA4A29D15A614355 /* Pods */,
+				A4008CDB219798640A9906EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		427DAD1220D5361D0022AF23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				427DAD1120D5361D0022AF23 /* NaverCloverNavigationBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		427DAD1320D5361D0022AF23 /* NaverCloverNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				427DAD1420D5361D0022AF23 /* AppDelegate.h */,
+				427DAD1520D5361D0022AF23 /* AppDelegate.m */,
+				427DAD1720D5361D0022AF23 /* ViewController.h */,
+				427DAD1820D5361D0022AF23 /* ViewController.m */,
+				427DAD1A20D5361D0022AF23 /* Main.storyboard */,
+				427DAD1D20D536200022AF23 /* Assets.xcassets */,
+				427DAD1F20D536200022AF23 /* LaunchScreen.storyboard */,
+				427DAD2220D536200022AF23 /* Info.plist */,
+				427DAD2320D536200022AF23 /* main.m */,
+			);
+			path = NaverCloverNavigationBar;
+			sourceTree = "<group>";
+		};
+		A4008CDB219798640A9906EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8357A92D2D372C460CA94D83 /* Pods_NaverCloverNavigationBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA3C3659BA4A29D15A614355 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8BAB1C42D4FE28B3A3B4131 /* Pods-NaverCloverNavigationBar.debug.xcconfig */,
+				D6F5B85DDD624448C73067F2 /* Pods-NaverCloverNavigationBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		427DAD1020D5361D0022AF23 /* NaverCloverNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427DAD2720D536200022AF23 /* Build configuration list for PBXNativeTarget "NaverCloverNavigationBar" */;
+			buildPhases = (
+				B78F753D7CC30595733EF9E7 /* [CP] Check Pods Manifest.lock */,
+				427DAD0D20D5361D0022AF23 /* Sources */,
+				427DAD0E20D5361D0022AF23 /* Frameworks */,
+				427DAD0F20D5361D0022AF23 /* Resources */,
+				2176461E3A451DE93BA0087D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaverCloverNavigationBar;
+			productName = NaverCloverNavigationBar;
+			productReference = 427DAD1120D5361D0022AF23 /* NaverCloverNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		427DAD0920D5361D0022AF23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = godeun;
+				TargetAttributes = {
+					427DAD1020D5361D0022AF23 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 427DAD0C20D5361D0022AF23 /* Build configuration list for PBXProject "NaverCloverNavigationBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 427DAD0820D5361D0022AF23;
+			productRefGroup = 427DAD1220D5361D0022AF23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				427DAD1020D5361D0022AF23 /* NaverCloverNavigationBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		427DAD0F20D5361D0022AF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427DAD2120D536200022AF23 /* LaunchScreen.storyboard in Resources */,
+				427DAD1E20D536200022AF23 /* Assets.xcassets in Resources */,
+				427DAD1C20D5361D0022AF23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2176461E3A451DE93BA0087D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NaverCloverNavigationBar/Pods-NaverCloverNavigationBar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaverCloverNavigationBar/Pods-NaverCloverNavigationBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B78F753D7CC30595733EF9E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaverCloverNavigationBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		427DAD0D20D5361D0022AF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427DAD1920D5361D0022AF23 /* ViewController.m in Sources */,
+				427DAD2420D536200022AF23 /* main.m in Sources */,
+				427DAD1620D5361D0022AF23 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		427DAD1A20D5361D0022AF23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				427DAD1B20D5361D0022AF23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		427DAD1F20D536200022AF23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				427DAD2020D536200022AF23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		427DAD2520D536200022AF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		427DAD2620D536200022AF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		427DAD2820D536200022AF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8BAB1C42D4FE28B3A3B4131 /* Pods-NaverCloverNavigationBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUET872Y38;
+				INFOPLIST_FILE = NaverCloverNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.godeun.NaverCloverNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		427DAD2920D536200022AF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F5B85DDD624448C73067F2 /* Pods-NaverCloverNavigationBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUET872Y38;
+				INFOPLIST_FILE = NaverCloverNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.godeun.NaverCloverNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		427DAD0C20D5361D0022AF23 /* Build configuration list for PBXProject "NaverCloverNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427DAD2520D536200022AF23 /* Debug */,
+				427DAD2620D536200022AF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427DAD2720D536200022AF23 /* Build configuration list for PBXNativeTarget "NaverCloverNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427DAD2820D536200022AF23 /* Debug */,
+				427DAD2920D536200022AF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 427DAD0920D5361D0022AF23 /* Project object */;
+}
